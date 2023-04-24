@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 #include <stdarg.h>
 /**
  * _printf - function that produces output according to a format.
@@ -8,7 +8,7 @@
  */
 int _printf(const char *format, ...)
 {
-	va_list arg;
+	va_list args;
 	va_start(args, format);
 	int i;
 	int number;
